@@ -8,6 +8,9 @@ public class CommentsInfo {
     private boolean canDelete;
     private boolean canOpen;
     private boolean canClose;
+    ////добавил из документации
+    private boolean groupsCanPost;
+
 
     /// + getters/setters
 }

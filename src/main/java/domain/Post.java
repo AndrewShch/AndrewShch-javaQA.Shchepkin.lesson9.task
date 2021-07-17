@@ -2,7 +2,7 @@ package domain;
 
 public class Post {
     private String id;
-    private String ownerId;
+    private String ownerIdPost; // это у меня идентификатор автора записи
     private String imageUrl;
     private int date;
     private String text;
@@ -15,7 +15,19 @@ public class Post {
     private CommentsInfo commentsInfo;
     private RepostsInfo repostsInfo;
     private ViewsInfo viewsInfo;
+    ////добавил из документации
+    private String ownerId;
+    private int createdBy;
+    private int replyOwnerId;
+    private int replyPostId;
+    private int friendsOnly;
+    private String postType;
+    private String signerId;
+    private int isPinned;
+    private boolean isFavorite;
+    private boolean markedAsAds;
+    private boolean postponed_id;
 
-/// + getters/setters
+    /// + getters/setters
 
 }
