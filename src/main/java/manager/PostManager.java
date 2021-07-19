@@ -4,15 +4,16 @@ import domain.Post;
 
 public class PostManager {
     private Post[] posts;
-
-    public Post[] getPosts() {
+    public Post[] getPosts(){
         return null;
     }
-    public Post[] search(WallSearch item){
-        return null;
 
+
+    public Post[] search(String ownerId, String domain, String query, int count, int offset, boolean owners_only){
+
+        return null;
     }
-    public void delete(WallDelete item){
+    public void delete(String ownerId, String postId){
 
     }
 }
